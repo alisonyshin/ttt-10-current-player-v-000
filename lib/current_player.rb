@@ -1,3 +1,5 @@
+board = [" "," "," "," "," ","X"," "," ","O"]
+
 def turn_count(board)
   counter = 0
   board.each do |cell|
@@ -12,3 +14,5 @@ def current_player(board)
     return "O"
   else return "X"
 end
+
+current_player(board)

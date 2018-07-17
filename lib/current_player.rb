@@ -11,6 +11,6 @@ end
 
 def current_player(board)
   number_turns = turn_count(board)
-  current = number_turns %2 ==0? "O":"X"
+  current = number_turns %2 ==0? "X":"O"
   puts current
 end

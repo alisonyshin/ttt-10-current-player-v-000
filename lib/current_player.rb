@@ -14,5 +14,3 @@ def current_player(board)
   current = number_turns %2 ==0? "O":"X"
   puts current
 end
-
-current_player(board)
